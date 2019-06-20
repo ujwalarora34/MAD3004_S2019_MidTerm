@@ -9,5 +9,13 @@
 import Foundation
 
 class Mobile : Bill{
-    var mobile_manufacturer_name : 
+    var mobile_manufacturer_name : String
+    var plan_name : String
+    var mobile_number : Int
+    var internet_GB_used : Int
+    var minutes_used : Int
+    
+    init(mobile_manufacturer_name : String, plan_name : String, mobile_number : Int) {
+        <#statements#>
+    }
 }

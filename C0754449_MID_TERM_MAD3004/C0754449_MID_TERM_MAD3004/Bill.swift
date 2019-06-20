@@ -10,15 +10,17 @@ import Foundation
 
 class Bill
 {
-    var billId : Int
-    var bill_date : Date
-    var bill_type : String
-    var total_bill_amount : Float
+    var billId : Int?
+    var billDate : Date?
+    var billType : String?
+    var totalbillamount : Float?
     
-    init(billId:Int, bill_date:Date,bill_type:String,total_bill_amount:Float){
+    init(billId:Int, billDate:Date,billType:String,totalbillamount:Float){
         self.billId = billId
-        self.bill_date = bill_date
-        self.bill_type = bill_type
-        self.total_bill_amount = 
+        self.billDate = billDate
+        self.billType = billType
+        self.totalbillamount = totalbillamount
     }
-}
+    
+    func display()
+    
