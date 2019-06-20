@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  Mobile.swift
 //  C0754449_MID_TERM_MAD3004
 //
 //  Created by MacStudent on 2019-06-20.
@@ -8,5 +8,6 @@
 
 import Foundation
 
-
-
+class Mobile : Bill{
+    var mobile_manufacturer_name : 
+}
