@@ -23,4 +23,9 @@ class Bill
     }
     
     func display()
-    
+    {
+        print("------Bill Info-------")
+        print(")
+        
+    }
+}

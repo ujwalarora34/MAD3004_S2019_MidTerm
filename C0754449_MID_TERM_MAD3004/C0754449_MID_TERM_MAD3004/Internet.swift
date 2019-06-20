@@ -10,13 +10,14 @@ import Foundation
 
 class Internet:Bill{
     
-    var provider_name : String?
-    var internet_gb_used : Int?
+    let providername : String?
+    var internetgbused : Float?
     
-    init(provider_name : String, internet_gb_used : Int)
+    init(provider_name : String, internet_gb_used : Float)
     {
-        self.provider_name = String()
-        self.internet_gb_used = Int()
+        self.providername = String()
+        self.internetgbused = Float()
+        
         
     }
     

@@ -9,13 +9,19 @@
 import Foundation
 
 class Mobile : Bill{
-    var mobile_manufacturer_name : String
-    var plan_name : String
-    var mobile_number : Int
-    var internet_GB_used : Int
-    var minutes_used : Int
+    var mobilemanufacturername : String?
+    var planname : String?
+    var mobilenumber : Int?
+    var internetGBused : Float?
+    var minutesused : Float?
     
-    init(mobile_manufacturer_name : String, plan_name : String, mobile_number : Int) {
-        <#statements#>
+    init(billId: Int, billDate: Date, billType: String, totalbillamount: Float, mobilemanufacturername : String, planname : String, mobilenumber: Int, internetGBused: Float, minutesused : Float)
+    
+    {
+        self.mobilemanufacturername = mobilemanufacturername
+        self.planname = planname
+        self.mobilenumber = mobilenumber
+        self.internetGBused = internetGBused
+        self.minutesused = minutesused
     }
 }
