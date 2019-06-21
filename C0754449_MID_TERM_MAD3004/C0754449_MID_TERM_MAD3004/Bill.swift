@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Bill
+class Bill : IDisplay
 {
     var billId : Int?
     var billDate : Date?

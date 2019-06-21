@@ -10,16 +10,10 @@ import Foundation
 
 class Hydro:Bill{
     var agencyname : String
-    var unitused : Int
+    var unitused : Float
     
-    init(billID : Int , billDate : Date , billType: String , totalbillamount: Float, agencyname : String, unitused: Int)
-    
-    {
-        self.agencyname = agencyname
-        self.unitused = unitused
-    }
-    
-    func display() {
-        print(")
+    override (){
+        self.agencyname = ""
+        self.unitused = 0
     }
 }
