@@ -12,7 +12,7 @@ class Hydro:Bill{
     var agencyname : String
     var unitused : Float
     
-    override (){
+    override.init{
         self.agencyname = ""
         self.unitused = 0
     }
