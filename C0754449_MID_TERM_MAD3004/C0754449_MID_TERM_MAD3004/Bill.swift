@@ -25,7 +25,10 @@ class Bill
     func display()
     {
         print("------Bill Info-------")
-        print(")
+        print("Bill Id:",billId!)
+        print("Bill Date:",billDate!)
+        print("Bill Type:",billType!)
+        print("Total Bill Amount:",totalbillamount!)
         
     }
 }

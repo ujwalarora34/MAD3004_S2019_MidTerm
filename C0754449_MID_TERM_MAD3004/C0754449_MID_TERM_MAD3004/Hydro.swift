@@ -9,6 +9,17 @@
 import Foundation
 
 class Hydro:Bill{
-    var agency_name : String
-    var unit_used : Int
+    var agencyname : String
+    var unitused : Int
+    
+    init(billID : Int , billDate : Date , billType: String , totalbillamount: Float, agencyname : String, unitused: Int)
+    
+    {
+        self.agencyname = agencyname
+        self.unitused = unitused
+    }
+    
+    func display() {
+        print(")
+    }
 }

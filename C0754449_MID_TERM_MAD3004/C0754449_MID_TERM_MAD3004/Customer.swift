@@ -22,8 +22,25 @@ class Customer
     let email : String?
     var arraybills : [Bill]?
     var totalbill : Float?
+    
+    init(customerId : Int, firstname : String, lastname : String, email: String, arraybills : [Bill])
+    {
+        self.customerId = customerId
+        self.firstname = firstname
+        self.lastname = lastname
+        self.email = email
+        self.arraybills = arraybills
+    }
+    
+    func display()
+    {
+        print("Customer Id: ",customerId!)
+        print("First name: ",firstname!)
+        print("Email: ",email!)
+        print("----Bill Information----")
+        for bill in self.arraybills!
+        {
+            bill.display()
+        }
+    }
 }
-
-
-
-
